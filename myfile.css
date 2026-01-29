@@ -1,3 +1,285 @@
-table,th,td{
-    border: 1px solid black;
+table,
+th,
+td {
+    border: 1px solid rgb(140, 140, 140);
+}
+
+body {
+    background-color: rgb(236, 234, 234);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+.container {
+    position: relative;
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.corner-decoration {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom-left-radius: 10px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.header p {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+
+
+.about-me {
+    margin-bottom: 50px;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-me p {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    padding: 0px 20px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.skills ul {
+    list-style-type: square;
+    padding: 0px 45px;
+}
+
+.skills li {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    padding: 0px 10px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.experience {
+    margin-bottom: 50px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.experience table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.experience th {
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.experience td {
+    padding: 10px;
+    text-align: left;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.projects h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.projects p {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    padding: 0px 25px;
+    text-align: justify;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects ul {
+    list-style-type: square;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.projects li {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    padding: 0px 10px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.education h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.education table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.education th {
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.education td {
+    padding: 10px;
+    text-align: left;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact p {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    padding: 0px 20px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.footer {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    text-align: center;
+    line-height: 1.3;
 }
